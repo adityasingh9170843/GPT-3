@@ -1,0 +1,116 @@
+.gpt3 {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    background: var(--color-footer);
+
+    
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.gpt3_feature{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+.gpt3_feature h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+.gpt3_feature p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #81AFDD;
+    cursor: pointer;
+    max-width: 710px;
+}
+.gpt3_heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+}
+.gpt3_heading h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 65px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    max-width: 510px;
+}
+.gpt3_heading p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: orange;
+    cursor: pointer;
+    max-width: 510px;
+}
+.gpt3_container{
+    display: flex;
+    margin-top: 8rem;
+    position: relative;
+}
+
+.gpt3_container>div>h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+.gpt3_container>div>p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #81AFDD;
+    margin-top: 3rem;
+    
+}
+.gpt3_container div{
+    flex: 1;
+    margin-right: 9rem;
+}
+
+.gpt3_feature h1::before
+{
+    content: "";
+    width: 45px;
+    height: 2px;
+    background: var(--gradient-bar);
+    position: absolute;
+    top: -9px;
+}
+.gpt3_container h1::before{
+    content: "";
+    width: 45px;
+    height: 2px;
+    background: var(--gradient-bar);
+    position: absolute;
+    top: -9px;
+}

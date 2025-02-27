@@ -1,0 +1,15 @@
+.brand{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+    align-items: center;
+}
+.brand div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    max-width: 120px;
+    max-height: 120px;
+}
